@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LutongPinoy/static/css/main.7433424c.css",
+    "main.js": "/LutongPinoy/static/js/main.f20dcbbe.js",
+    "static/js/787.3c85ff29.chunk.js": "/LutongPinoy/static/js/787.3c85ff29.chunk.js",
+    "static/media/home-image.jpeg": "/LutongPinoy/static/media/home-image.f17deeefe79bac667ad6.jpeg",
+    "index.html": "/LutongPinoy/index.html",
+    "main.7433424c.css.map": "/LutongPinoy/static/css/main.7433424c.css.map",
+    "main.f20dcbbe.js.map": "/LutongPinoy/static/js/main.f20dcbbe.js.map",
+    "787.3c85ff29.chunk.js.map": "/LutongPinoy/static/js/787.3c85ff29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7433424c.css",
+    "static/js/main.f20dcbbe.js"
+  ]
+}
