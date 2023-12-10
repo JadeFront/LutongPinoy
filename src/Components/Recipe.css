@@ -1,0 +1,257 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 480px){
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDE4E0;
+        padding: 70px 0;
+    }
+    .recipe-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 5px;
+    }
+    .card-container{
+        border: solid #594545;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+        width: 40vw;
+        height: 50vh;
+        background-color: #D0B8A8;
+    }
+    .card-image{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 25vh;
+        width: 38.6vw;
+    }
+    .card-title h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-description p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 10px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-button{
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        background-color: #815B5B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .card-button:hover{
+        background-color: #9E7676;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 35px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDE4E0;
+        padding: 90px 0;
+    }
+    .recipe-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 5px;
+    }
+    .card-container{
+        border: solid #594545;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+        width: 40vw;
+        height: 50vh;
+        background-color: #D0B8A8;
+    }
+    .card-image{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 25vh;
+        width: 39.2vw;
+    }
+    .card-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-description{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-button{
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        background-color: #815B5B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .card-button:hover{
+        background-color: #9E7676;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDE4E0;
+        padding: 90px 0;
+    }
+    .recipe-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .card-container{
+        border: solid #594545;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+        width: 22vw;
+        height: 50vh;
+        background-color: #D0B8A8;
+    }
+    .card-image{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 25vh;
+        width: 21.5vw;
+    }
+    .card-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-description{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-button{
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        background-color: #815B5B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .card-button:hover{
+        background-color: #9E7676;
+    }
+}
+@media only screen and (min-width: 1025px)  {
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDE4E0;
+        padding: 100px 0;
+    }
+    .recipe-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .card-container{
+        border: solid #594545;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+        width: 20vw;
+        height: 50vh;
+        background-color: #D0B8A8;
+    }
+    .card-image{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 25vh;
+        width: 19.5vw;
+    }
+    .card-title, h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-description, p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        padding: 0 5px;
+        color: black;
+    }
+    .card-button{
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        background-color: #815B5B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .card-button:hover{
+        background-color: #9E7676;
+    }
+}

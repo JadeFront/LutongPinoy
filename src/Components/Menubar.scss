@@ -1,0 +1,21 @@
+
+$primary: #967E76 ;
+
+.color{
+    color: #967E76
+}
+
+
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+
+
+:root{
+
+    --bs-nav-link-font-size: 18px;
+    --bs-body-font-family: 'Poppins', sans-serif;
+
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+
+@media only screen and (max-width: 480px){
+    .about-container{
+        background-color: #B3A492;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .inner-container{
+        margin: 40px 30px;
+    }
+    .about-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-style: 600;
+        color: #EBE3D5;
+    }
+    .about-introduction{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        text-align: justify;
+        color: #EBE3D5;
+    } 
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .about-container{
+        background-color: #B3A492;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .inner-container{
+        margin: 40px 30px;
+    }
+    .about-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        font-style: 600;
+        color: #EBE3D5;
+    }
+    .about-introduction{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        text-align: justify;
+        color: #EBE3D5;
+    }  
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+    .about-container{
+        background-color: #B3A492;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .inner-container{
+        margin: 40px 100px;
+    }
+    .about-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-style: 600;
+        color: #EBE3D5;
+    }
+    .about-introduction{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 17px;
+        text-align: justify;
+        color: #EBE3D5;
+    }
+}
+@media only screen and (min-width: 1025px)  {
+    .about-container{
+        background-color: #B3A492;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .inner-container{
+        margin: 40px 100px;
+    }
+    .about-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-style: 600;
+        color: #EBE3D5;
+    }
+    .about-introduction{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        text-align: justify;
+        color: #EBE3D5;
+    }
+}
